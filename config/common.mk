@@ -39,3 +39,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
     ro.error.receiver.system.apps=com.google.android.gms
+
+# Custom release signing keys and certificate signatures
+-include vendor/wanderer-priv/keys/keys.mk
