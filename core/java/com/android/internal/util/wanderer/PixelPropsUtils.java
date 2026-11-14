@@ -31,11 +31,19 @@ public class PixelPropsUtils {
     private static final Set<String> sBankingPackages = new HashSet<>(Arrays.asList(
         "com.google.android.apps.nbu.paisa.user", // Google Pay (Tez)
         "com.phonepe.app",                       // PhonePe
+        "in.org.npci.upiapp",                    // BHIM UPI (NPCI)
         "net.one97.paytm",                        // Paytm
         "com.sbi.lotusintouch",                  // YONO SBI
+        "com.sbi.upi",                           // BHIM SBI Pay
         "com.hdfcbank.android",                  // HDFC Bank MobileBanking
+        "com.csam.icici.bank.imobile",           // ICICI iMobile
         "com.icicibank.mobile",                  // iMobile Pay by ICICI
         "com.axis.mobile",                       // Axis Mobile
+        "com.kotak.kotakbank",                   // Kotak 811
+        "com.bankofbaroda.mconnect",             // bob World
+        "com.canarabank.mobility",               // Canara ai1
+        "com.pnb.pnbone",                        // PNB ONE
+        "com.unionbank.ecommerce.mobile.android",// Vyom (Union Bank)
         "com.chase.sig.android",                 // Chase Mobile
         "com.revolut.revolut"                    // Revolut
     ));
