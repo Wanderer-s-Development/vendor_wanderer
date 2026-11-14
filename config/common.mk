@@ -42,3 +42,4 @@ PRODUCT_SYSTEM_PROPERTIES += \
 
 # Custom release signing keys and certificate signatures
 -include vendor/wanderer-priv/keys/keys.mk
+DISABLE_DEXPREOPT_CHECK := true
