@@ -1,0 +1,10 @@
+// WandererOS Vendor Configuration
+soong_namespace {
+    imports: [],
+}
+
+java_library {
+    name: "wanderer-framework-utils",
+    srcs: ["core/java/**/*.java"],
+    installable: false,
+}
