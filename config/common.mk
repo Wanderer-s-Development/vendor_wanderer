@@ -16,7 +16,9 @@ PRODUCT_PACKAGES += \
     WallpaperPicker2 \
     ExactCalculator \
     DeskClock \
-    LatinIME
+    LatinIME \
+    bootanimation.zip \
+    bootanimation-dark.zip
 
 # Strip AudioFX & Lineage Music (Eleven/Twelve) from product packages
 PRODUCT_PACKAGES := $(filter-out \
