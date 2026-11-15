@@ -28,9 +28,6 @@ PRODUCT_PACKAGES := $(filter-out \
 
 # Security, Privacy & Stealth Defaults
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.secure=1 \
-    ro.debuggable=0 \
-    ro.adb.secure=1 \
     persist.sys.pi_spoof=1 \
     persist.sys.keystore_spoof=1 \
     persist.sys.bank_stealth=1
