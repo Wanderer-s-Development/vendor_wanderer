@@ -36,6 +36,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Common system properties
 PRODUCT_SYSTEM_PROPERTIES += \
+    ro.control_privapp_permissions=log \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
     ro.error.receiver.system.apps=com.google.android.gms
 
